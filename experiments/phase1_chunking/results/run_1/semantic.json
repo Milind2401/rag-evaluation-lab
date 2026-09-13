@@ -1,0 +1,30 @@
+{
+  "strategy": "semantic",
+  "config": {
+    "breakpoint_threshold": 75.0
+  },
+  "chunk_count": 742,
+  "avg_chunk_tokens": 115.5,
+  "retrieval_metrics": {
+    "recall@1": 0.12,
+    "precision@1": 0.12,
+    "recall@3": 0.28,
+    "precision@3": 0.0933,
+    "recall@5": 0.3,
+    "precision@5": 0.06,
+    "mrr": 0.194,
+    "total_questions": 50
+  },
+  "cost": {
+    "embedding_api_calls": 1,
+    "embedding_tokens_input": 85718,
+    "embedding_cost_usd": 0.001714
+  },
+  "latency": {
+    "chunking_ms": 110771.6,
+    "embedding_generation_ms": 12087.7,
+    "retrieval_ms": 152781.2,
+    "evaluation_ms": 9.5,
+    "total_ms": 300088.5
+  }
+}

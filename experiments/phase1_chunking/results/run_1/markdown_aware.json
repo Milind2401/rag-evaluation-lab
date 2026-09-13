@@ -1,0 +1,30 @@
+{
+  "strategy": "markdown_aware",
+  "config": {
+    "max_chunk_size": 1024
+  },
+  "chunk_count": 602,
+  "avg_chunk_tokens": 142.6,
+  "retrieval_metrics": {
+    "recall@1": 0.2,
+    "precision@1": 0.2,
+    "recall@3": 0.34,
+    "precision@3": 0.1133,
+    "recall@5": 0.36,
+    "precision@5": 0.072,
+    "mrr": 0.264,
+    "total_questions": 50
+  },
+  "cost": {
+    "embedding_api_calls": 1,
+    "embedding_tokens_input": 85823,
+    "embedding_cost_usd": 0.001716
+  },
+  "latency": {
+    "chunking_ms": 16.0,
+    "embedding_generation_ms": 12688.1,
+    "retrieval_ms": 154879.3,
+    "evaluation_ms": 8.6,
+    "total_ms": 189695.3
+  }
+}

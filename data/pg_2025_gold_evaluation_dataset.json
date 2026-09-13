@@ -1,0 +1,902 @@
+[
+  {
+    "id": "q001",
+    "question": "What were P&G's net sales in fiscal 2025?",
+    "ground_truth_answer": "$84.3 billion",
+    "supporting_text": "Net sales $ 84,284 $ 84,039 — %",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Net sales",
+      "end_text": "$ 84,284 $ 84,039 — %"
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q002",
+    "question": "By what percentage did P&G's operating income increase in fiscal 2025?",
+    "ground_truth_answer": "10%",
+    "supporting_text": "Operating income 20,451 18,545 10 %",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Operating income",
+      "end_text": "10 %"
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q003",
+    "question": "What was P&G's net earnings attributable to the company in 2025?",
+    "ground_truth_answer": "$15.974 billion, approximately $16.0 billion",
+    "supporting_text": "Net earnings attributable to Procter & Gamble 15,974 14,879 7 %",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Net earnings attributable to Procter & Gamble",
+      "end_text": "7 %"
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q004",
+    "question": "What was P&G's diluted EPS in fiscal 2025?",
+    "ground_truth_answer": "$6.51",
+    "supporting_text": "Diluted net earnings per common share 6.51 6.02 8 %",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Diluted net earnings per common share",
+      "end_text": "8 %"
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q005",
+    "question": "What was P&G's core EPS in fiscal 2025?",
+    "ground_truth_answer": "$6.83",
+    "supporting_text": "Core earnings per share 6.83 6.59 4 %",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Core earnings per share",
+      "end_text": "4 %"
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q006",
+    "question": "What was P&G's operating cash flow in fiscal 2025?",
+    "ground_truth_answer": "$17.8 billion",
+    "supporting_text": "Cash flow from operating activities 17,817 19,846 (10)%",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Cash flow from operating activities",
+      "end_text": "(10)%"
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q007",
+    "question": "By how much did net sales increase from fiscal 2024 to fiscal 2025?",
+    "ground_truth_answer": "$245 million",
+    "supporting_text": "Net sales increased $245 million to $84.3 billion versus the prior year.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Net sales increased $245 million",
+      "end_text": "versus the prior year."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q008",
+    "question": "What was P&G's organic sales growth in fiscal 2025?",
+    "ground_truth_answer": "2%",
+    "supporting_text": "Organic sales, which exclude the impact of acquisitions and divestitures and foreign exchange, increased 2%.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Organic sales",
+      "end_text": "increased 2%."
+    },
+    "question_type": "definition_and_fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q009",
+    "question": "Why did operating income increase by 10% in fiscal 2025?",
+    "ground_truth_answer": "Primarily because SG&A costs decreased in the current year and because the prior year included a $1.3 billion non-cash impairment charge on the Gillette intangible asset.",
+    "supporting_text": "Operating income increased $1.9 billion, or 10%, to $20.5 billion due to a reduction in selling, general and administrative costs (SG&A) in the current year and the non-cash impairment charge of $1.3 billion ($1.0 billion after tax) on the Gillette intangible asset in the prior year.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Operating income increased $1.9 billion",
+      "end_text": "in the prior year."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q010",
+    "question": "Why did net earnings increase in fiscal 2025?",
+    "ground_truth_answer": "Net earnings increased because of higher operating income, partially offset by higher restructuring charges, including $801 million after tax related to liquidation of operations in Argentina.",
+    "supporting_text": "Net earnings increased $1.1 billion, or 7%, to $16.1 billion due to the increase in operating income, partially offset by higher restructuring charges in the current year, which includes $801 million after tax related to the substantial liquidation of operations in Argentina.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Net earnings increased $1.1 billion",
+      "end_text": "operations in Argentina."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q011",
+    "question": "What was P&G's adjusted free cash flow in fiscal 2025?",
+    "ground_truth_answer": "$14.6 billion",
+    "supporting_text": "Adjusted free cash flow ... was $14.6 billion.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Adjusted free cash flow",
+      "end_text": "was $14.6 billion."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q012",
+    "question": "What was P&G's adjusted free cash flow productivity in 2025?",
+    "ground_truth_answer": "87%",
+    "supporting_text": "Adjusted free cash flow productivity ... was 87%.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 19,
+      "section": "Summary of 2025 Results"
+    },
+    "source_span": {
+      "page": 19,
+      "start_text": "Adjusted free cash flow productivity",
+      "end_text": "was 87%."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q013",
+    "question": "How many consecutive quarters of top-line growth did P&G achieve by fiscal 2025?",
+    "ground_truth_answer": "39 consecutive quarters",
+    "supporting_text": "The last quarter was our 39th consecutive quarter of top-line growth.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "39th consecutive quarter",
+      "end_text": "top-line growth."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q014",
+    "question": "How many consecutive years of core EPS growth had P&G achieved by fiscal 2025?",
+    "ground_truth_answer": "Nine consecutive years",
+    "supporting_text": "Fiscal 2025 was our ninth consecutive year of core earnings-per-share growth.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "ninth consecutive year",
+      "end_text": "core earnings-per-share growth."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q015",
+    "question": "How many of P&G's 10 product categories grew organic sales in fiscal 2025?",
+    "ground_truth_answer": "Nine of 10",
+    "supporting_text": "Nine of 10 product categories grew organic sales for the year.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "Nine of 10 product categories",
+      "end_text": "for the year."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q016",
+    "question": "Which two product categories grew organic sales by mid-single digits in fiscal 2025?",
+    "ground_truth_answer": "Family Care and Personal Health Care",
+    "supporting_text": "Family Care and Personal Health Care each grew mid-single digits.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "Family Care and Personal Health Care",
+      "end_text": "mid-single digits."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q017",
+    "question": "What happened to Baby Care organic sales in fiscal 2025?",
+    "ground_truth_answer": "They decreased by low single digits.",
+    "supporting_text": "Baby Care was down low single digits.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "Baby Care",
+      "end_text": "down low single digits."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q018",
+    "question": "How did North American and European Focus markets perform in fiscal 2025?",
+    "ground_truth_answer": "North America grew 2%, while Europe Focus markets grew 3%.",
+    "supporting_text": "Focus markets grew 2% for the year, with North America up 2% and Europe Focus markets up 3%.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "Focus markets grew 2%",
+      "end_text": "Europe Focus markets up 3%."
+    },
+    "question_type": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q019",
+    "question": "What percentage of P&G's total sales did e-commerce represent in fiscal 2025?",
+    "ground_truth_answer": "19%",
+    "supporting_text": "E-commerce sales increased 12%, now representing 19% of Company total.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "E-commerce sales increased 12%",
+      "end_text": "19% of Company total."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q020",
+    "question": "How much cash did P&G return to shareholders in fiscal 2025?",
+    "ground_truth_answer": "More than $16 billion",
+    "supporting_text": "We increased our dividend by 5% and returned over $16 billion of cash to shareowners through nearly $10 billion in dividends and $6.5 billion in share repurchase.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "returned over $16 billion",
+      "end_text": "$6.5 billion in share repurchase."
+    },
+    "question_type": "multi_sentence",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q021",
+    "question": "What were the main components of P&G's $16+ billion cash return to shareholders?",
+    "ground_truth_answer": "Nearly $10 billion in dividends and $6.5 billion in share repurchases.",
+    "supporting_text": "returned over $16 billion of cash to shareowners through nearly $10 billion in dividends and $6.5 billion in share repurchase",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "returned over $16 billion",
+      "end_text": "$6.5 billion in share repurchase"
+    },
+    "question_type": "multi_sentence",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q022",
+    "question": "What were the major challenges P&G faced in fiscal 2025?",
+    "ground_truth_answer": "Higher commodity and tariff costs, macroeconomic and geopolitical volatility, consumer uncertainty, fierce competition, and rapidly changing technology.",
+    "supporting_text": "growth in this dynamic and volatile environment; Consumers face greater uncertainty. Competition is fierce. The geopolitical environment is unpredictable.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "dynamic and volatile environment",
+      "end_text": "geopolitical environment is unpredictable."
+    },
+    "question_type": "context",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q023",
+    "question": "What opportunities did P&G identify for future growth and value creation?",
+    "ground_truth_answer": "Serving currently unserved and underserved consumers, expanding into new segments, and growing markets toward best-in-class levels.",
+    "supporting_text": "there are opportunities to better meet the needs among currently unserved and underserved consumers, expand into new segments and grow markets to best-in-class levels.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Introduction / Letter to Shareowners"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "opportunities to better meet the needs",
+      "end_text": "best-in-class levels."
+    },
+    "question_type": "context",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q024",
+    "question": "What are the five major components of P&G's integrated growth strategy?",
+    "ground_truth_answer": "Portfolio, superiority, productivity, constructive disruption, and an empowered, agile and accountable organization.",
+    "supporting_text": "a portfolio of daily-use categories where performance drives brand choice; superiority across product, package, brand communication, retail execution, and value; productivity; constructive disruption; all enabled by an empowered, agile and accountable organization.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "P&G's Integrated Strategic Choices to Win"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "a portfolio of daily-use categories",
+      "end_text": "empowered, agile and accountable organization."
+    },
+    "question_type": "multi_concept",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q025",
+    "question": "Why does P&G describe its strategy as an integrated growth strategy?",
+    "ground_truth_answer": "Because the strategic choices reinforce and build on each other, and all need to be delivered rather than selected individually.",
+    "supporting_text": "These choices reinforce and build on each other, and each needs to be delivered. It is not a menu to pick and choose from.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "P&G's Integrated Strategic Choices to Win"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "These choices reinforce and build on each other",
+      "end_text": "menu to pick and choose from."
+    },
+    "question_type": "context",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q026",
+    "question": "How does P&G describe the nature of its strategy in relation to changing market conditions?",
+    "ground_truth_answer": "It is dynamic rather than static and can be adjusted in real time.",
+    "supporting_text": "Our strategy is dynamic, not static. It allows us to adapt to the volatile world around us...",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Integrated Growth Strategy"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "Our strategy is dynamic, not static.",
+      "end_text": "adapt to the volatile world around us..."
+    },
+    "question_type": "context",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q027",
+    "question": "Which daily-use categories are included in P&G's focused portfolio?",
+    "ground_truth_answer": "Fabric Care, Home Care, Baby Care, Feminine Care, Family Care, Hair Care, Skin & Personal Care, Oral Care, Personal Health Care, and Grooming.",
+    "supporting_text": "across Fabric Care, Home Care, Baby Care, Feminine Care, Family Care, Hair Care, Skin & Personal Care, Oral Care, Personal Health Care, and Grooming.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Portfolio: Daily Use, Where Performance Drives Brand Choice"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "across Fabric Care",
+      "end_text": "and Grooming."
+    },
+    "question_type": "list",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q028",
+    "question": "What five vectors does P&G use to define superiority?",
+    "ground_truth_answer": "Product, package, brand communication, retail execution, and consumer/customer value.",
+    "supporting_text": "through innovation—integrated across product, package, brand communication, retail execution, and consumer and customer value.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Superiority Across Product, Package, Brand Communication, Retail Execution and Value"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "integrated across product",
+      "end_text": "consumer and customer value."
+    },
+    "question_type": "list",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q029",
+    "question": "Why does P&G say productivity is necessary for sustained growth?",
+    "ground_truth_answer": "It funds investments in superiority, improves organizational effectiveness and efficiency, offsets cost and currency challenges, and supports cash generation.",
+    "supporting_text": "Productivity is required to fund investments in superiority, to strengthen organization effectiveness and efficiency, to offset inevitable cost and currency challenges, and to deliver strong cash generation.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Productivity to Fuel Growth and Value Creation"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "Productivity is required to fund investments",
+      "end_text": "strong cash generation."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q030",
+    "question": "How is P&G using technology in its manufacturing supply chain?",
+    "ground_truth_answer": "It uses automation and real-time vision cameras with advanced algorithms to analyze products and improve productivity and quality.",
+    "supporting_text": "real-time vision cameras on many of our manufacturing lines are capturing visual data and applying advanced algorithms to analyze a greater number of products for superior quality",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Productivity to Fuel Growth and Value Creation"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "real-time vision cameras",
+      "end_text": "for superior quality"
+    },
+    "question_type": "context",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q031",
+    "question": "What was Beauty's net sales in fiscal 2025?",
+    "ground_truth_answer": "$14.964 billion",
+    "supporting_text": "Net sales $14,964 $15,220 (2)%",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 22,
+      "section": "Beauty"
+    },
+    "source_span": {
+      "page": 22,
+      "start_text": "Net sales",
+      "end_text": "$14,964 $15,220 (2)%"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q032",
+    "question": "Why did Beauty net sales decrease by 2% in fiscal 2025?",
+    "ground_truth_answer": "Unfavorable mix, unfavorable foreign exchange, and lower unit volume outweighed higher pricing.",
+    "supporting_text": "Beauty net sales decreased 2% to $15.0 billion as the negative impact of unfavorable mix of 2% ... unfavorable foreign exchange of 1% and a unit volume decrease of 1% was partially offset by the positive impact of higher pricing of 2%.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 22,
+      "section": "Beauty"
+    },
+    "source_span": {
+      "page": 22,
+      "start_text": "Beauty net sales decreased 2%",
+      "end_text": "higher pricing of 2%."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q033",
+    "question": "What happened to Beauty's global market share in 2025?",
+    "ground_truth_answer": "It decreased by 0.3 percentage points.",
+    "supporting_text": "Global market share of the Beauty segment decreased 0.3 points.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 22,
+      "section": "Beauty"
+    },
+    "source_span": {
+      "page": 22,
+      "start_text": "Global market share of the Beauty segment",
+      "end_text": "decreased 0.3 points."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q034",
+    "question": "What happened to Hair Care's global market share in fiscal 2025?",
+    "ground_truth_answer": "It decreased by 0.9 percentage points.",
+    "supporting_text": "Global market share of the hair care category decreased 0.9 points.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 22,
+      "section": "Beauty / Hair Care"
+    },
+    "source_span": {
+      "page": 22,
+      "start_text": "Global market share of the hair care category",
+      "end_text": "decreased 0.9 points."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q035",
+    "question": "What was Grooming's net sales in fiscal 2025?",
+    "ground_truth_answer": "$6.662 billion",
+    "supporting_text": "Net sales $6,662 $6,654 —%",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 22,
+      "section": "Grooming"
+    },
+    "source_span": {
+      "page": 22,
+      "start_text": "Net sales",
+      "end_text": "$6,662 $6,654 —%"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q036",
+    "question": "What factors offset Grooming's higher pricing and unit volume in fiscal 2025?",
+    "ground_truth_answer": "Unfavorable foreign exchange, unfavorable geographic mix, and divestitures.",
+    "supporting_text": "higher pricing of 2% across all regions were offset by the negative impacts of unfavorable foreign exchange of 2%, unfavorable geographic mix of 1% and divestitures of 1%.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 22,
+      "section": "Grooming"
+    },
+    "source_span": {
+      "page": 22,
+      "start_text": "higher pricing of 2% across all regions",
+      "end_text": "divestitures of 1%."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q037",
+    "question": "What was Health Care's net sales growth in fiscal 2025?",
+    "ground_truth_answer": "2%, reaching $11.998 billion",
+    "supporting_text": "Net sales $11,998 $11,793 2%",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 23,
+      "section": "Health Care"
+    },
+    "source_span": {
+      "page": 23,
+      "start_text": "Net sales",
+      "end_text": "$11,998 $11,793 2%"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q038",
+    "question": "What were the main drivers of Health Care's 2% net sales increase?",
+    "ground_truth_answer": "Favorable geographic mix of 3% and higher pricing of 1%, partially offset by unfavorable foreign exchange of 1% and a 1% decrease in unit volume.",
+    "supporting_text": "Health Care net sales increased 2% to $12.0 billion driven by favorable geographic mix of 3% ... and higher pricing of 1%, partially offset by unfavorable foreign exchange of 1% and a 1% decrease in unit volume.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 23,
+      "section": "Health Care"
+    },
+    "source_span": {
+      "page": 23,
+      "start_text": "Health Care net sales increased 2%",
+      "end_text": "decrease in unit volume."
+    },
+    "question_type": "multi_factor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q039",
+    "question": "What happened to Health Care's global market share?",
+    "ground_truth_answer": "It increased by 0.2 percentage points.",
+    "supporting_text": "Global market share of the Health Care segment increased 0.2 points.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 23,
+      "section": "Health Care"
+    },
+    "source_span": {
+      "page": 23,
+      "start_text": "Global market share of the Health Care segment",
+      "end_text": "increased 0.2 points."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q040",
+    "question": "What was Fabric & Home Care's net sales in fiscal 2025?",
+    "ground_truth_answer": "$29.617 billion",
+    "supporting_text": "Net sales $29,617 $29,495 —%",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 23,
+      "section": "Fabric & Home Care"
+    },
+    "source_span": {
+      "page": 23,
+      "start_text": "Net sales",
+      "end_text": "$29,617 $29,495 —%"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q041",
+    "question": "Why were Fabric & Home Care's net sales unchanged in fiscal 2025?",
+    "ground_truth_answer": "Favorable product mix of 1% was offset by unfavorable foreign exchange of 1%, while unit volume remained unchanged.",
+    "supporting_text": "Fabric & Home Care net sales were unchanged at $29.6 billion driven by favorable product mix of 1%, offset by unfavorable foreign exchange of 1%. Unit volume was unchanged.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 23,
+      "section": "Fabric & Home Care"
+    },
+    "source_span": {
+      "page": 23,
+      "start_text": "Fabric & Home Care net sales were unchanged",
+      "end_text": "Unit volume was unchanged."
+    },
+    "question_type": "boundary_sensitive",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q042",
+    "question": "What happened to Home Care's global market share in fiscal 2025?",
+    "ground_truth_answer": "It increased by 0.4 percentage points.",
+    "supporting_text": "Global market share of the home care category increased 0.4 points.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 23,
+      "section": "Fabric & Home Care / Home Care"
+    },
+    "source_span": {
+      "page": 23,
+      "start_text": "Global market share of the home care category",
+      "end_text": "increased 0.4 points."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q043",
+    "question": "What was Baby, Feminine & Family Care's net sales in fiscal 2025?",
+    "ground_truth_answer": "$20.248 billion",
+    "supporting_text": "Net sales $20,248 $20,277 —%",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 24,
+      "section": "Baby, Feminine & Family Care"
+    },
+    "source_span": {
+      "page": 24,
+      "start_text": "Net sales",
+      "end_text": "$20,248 $20,277 —%"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q044",
+    "question": "Why were Baby, Feminine & Family Care's net sales unchanged in fiscal 2025?",
+    "ground_truth_answer": "Favorable product mix of 1% was offset by unfavorable foreign exchange of 1%, while unit volume was unchanged.",
+    "supporting_text": "Baby, Feminine & Family Care net sales were unchanged at $20.2 billion as favorable product mix of 1% was offset by unfavorable foreign exchange of 1%. Unit volume was unchanged.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 24,
+      "section": "Baby, Feminine & Family Care"
+    },
+    "source_span": {
+      "page": 24,
+      "start_text": "Baby, Feminine & Family Care net sales were unchanged",
+      "end_text": "Unit volume was unchanged."
+    },
+    "question_type": "boundary_sensitive",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q045",
+    "question": "Why did Baby Care net sales decrease in fiscal 2025?",
+    "ground_truth_answer": "Decreased unit volume, unfavorable foreign exchange, and divestitures outweighed favorable geographic/product mix.",
+    "supporting_text": "Negative impacts of a decrease in unit volume, unfavorable foreign exchange and divestitures were partially offset by favorable geographic and product mix",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 24,
+      "section": "Baby Care"
+    },
+    "source_span": {
+      "page": 24,
+      "start_text": "Negative impacts of a decrease in unit volume",
+      "end_text": "favorable geographic and product mix"
+    },
+    "question_type": "cause_effect",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q046",
+    "question": "Which P&G business segment had the highest 2025 net sales among Beauty, Grooming, Health Care, Fabric & Home Care, and Baby, Feminine & Family Care?",
+    "ground_truth_answer": "Fabric & Home Care, with $29.617 billion.",
+    "supporting_text": "Net sales $ 14,964 $ 6,662 $ 11,998 $ 29,617 $ 20,248 $ 794 $ 84,284",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 44,
+      "section": "Segment financial table"
+    },
+    "source_span": {
+      "page": 44,
+      "start_text": "Net sales",
+      "end_text": "$ 84,284"
+    },
+    "question_type": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q047",
+    "question": "Which segment had the highest 2025 net earnings?",
+    "ground_truth_answer": "Fabric & Home Care, with $5.848 billion.",
+    "supporting_text": "Net earnings/(loss) $ 2,715 $ 1,577 $ 2,440 $ 5,848 $ 4,013 $ (527) $ 16,065",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 44,
+      "section": "Segment financial table"
+    },
+    "source_span": {
+      "page": 44,
+      "start_text": "Net earnings/(loss)",
+      "end_text": "$ 16,065"
+    },
+    "question_type": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q048",
+    "question": "What were P&G's total capital expenditures across its reportable segments and Corporate in fiscal 2025?",
+    "ground_truth_answer": "$3.773 billion",
+    "supporting_text": "Capital expenditures $ 328 $ 451 $ 526 $ 1,208 $ 1,080 $ 180 $ 3,773",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 44,
+      "section": "Other segment information"
+    },
+    "source_span": {
+      "page": 44,
+      "start_text": "Capital expenditures",
+      "end_text": "$ 3,773"
+    },
+    "question_type": "structured_data",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q049",
+    "question": "How did P&G's U.S. and international net sales compare in fiscal 2025?",
+    "ground_truth_answer": "U.S. net sales were $41.6 billion and international net sales were $42.7 billion.",
+    "supporting_text": "NET SALES United States $ 41.6 $ 40.5 $ 38.7 International $ 42.7 $ 43.5 $ 43.3",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": 43,
+      "section": "Geographic information"
+    },
+    "source_span": {
+      "page": 43,
+      "start_text": "NET SALES United States",
+      "end_text": "International $ 42.7 $ 43.5 $ 43.3"
+    },
+    "question_type": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q050",
+    "question": "What were the main factors behind the $14.6 billion adjusted free cash flow generated in fiscal 2025?",
+    "ground_truth_answer": "Operating cash flow was $17.8 billion, while capital expenditures reduced cash; adjusted free cash flow was defined as operating cash flow less capital expenditures, excluding transitional tax payments.",
+    "supporting_text": "Adjusted free cash flow ... is defined as operating cash flow less capital expenditures and excluding payments for the transitional tax resulting from the 2017 U.S. Tax Act.",
+    "source": {
+      "document": "P&G_AnnualReport.pdf",
+      "page": null,
+      "section": "Cash Flow Analysis"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "Adjusted free cash flow",
+      "end_text": "2017 U.S. Tax Act."
+    },
+    "question_type": "definition_and_multi_step_reasoning",
+    "difficulty": "hard"
+  }
+]

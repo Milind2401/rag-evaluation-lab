@@ -1,0 +1,31 @@
+{
+  "strategy": "fixed_size",
+  "config": {
+    "chunk_size": 512,
+    "overlap": 50
+  },
+  "chunk_count": 405,
+  "avg_chunk_tokens": 225.0,
+  "retrieval_metrics": {
+    "recall@1": 0.22,
+    "precision@1": 0.22,
+    "recall@3": 0.38,
+    "precision@3": 0.1267,
+    "recall@5": 0.38,
+    "precision@5": 0.076,
+    "mrr": 0.2933,
+    "total_questions": 50
+  },
+  "cost": {
+    "embedding_api_calls": 1,
+    "embedding_tokens_input": 91122,
+    "embedding_cost_usd": 0.001822
+  },
+  "latency": {
+    "chunking_ms": 360.8,
+    "embedding_generation_ms": 11476.1,
+    "retrieval_ms": 160545.9,
+    "evaluation_ms": 16.8,
+    "total_ms": 235129.5
+  }
+}

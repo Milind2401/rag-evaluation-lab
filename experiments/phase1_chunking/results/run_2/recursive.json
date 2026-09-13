@@ -1,0 +1,42 @@
+{
+  "strategy": "recursive",
+  "config": {
+    "chunk_size": 512,
+    "overlap": 50,
+    "evaluation": "semantic",
+    "threshold": 0.6
+  },
+  "chunk_count": 1269,
+  "avg_chunk_tokens": 68.4,
+  "retrieval_metrics": {
+    "recall@1": 0.14,
+    "precision@1": 0.14,
+    "recall@3": 0.26,
+    "precision@3": 0.0867,
+    "recall@5": 0.34,
+    "precision@5": 0.068,
+    "mrr": 0.2157,
+    "total_questions": 50,
+    "semantic_recall@1": 0.38,
+    "semantic_precision@1": 0.38,
+    "semantic_recall@3": 0.58,
+    "semantic_precision@3": 0.34,
+    "semantic_recall@5": 0.64,
+    "semantic_precision@5": 0.308,
+    "semantic_mrr": 0.4873,
+    "avg_similarity": 0.5488,
+    "threshold": 0.6
+  },
+  "cost": {
+    "embedding_api_calls": 646,
+    "embedding_tokens_input": 177207,
+    "embedding_cost_usd": 0.003544
+  },
+  "latency": {
+    "chunking_ms": 38.7,
+    "embedding_generation_ms": 22861.9,
+    "retrieval_ms": 155826.2,
+    "evaluation_ms": 813762.2,
+    "total_ms": 1170818.7
+  }
+}

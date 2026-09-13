@@ -1,0 +1,31 @@
+{
+  "strategy": "recursive",
+  "config": {
+    "chunk_size": 512,
+    "overlap": 50
+  },
+  "chunk_count": 1269,
+  "avg_chunk_tokens": 68.4,
+  "retrieval_metrics": {
+    "recall@1": 0.14,
+    "precision@1": 0.14,
+    "recall@3": 0.26,
+    "precision@3": 0.0867,
+    "recall@5": 0.34,
+    "precision@5": 0.068,
+    "mrr": 0.2157,
+    "total_questions": 50
+  },
+  "cost": {
+    "embedding_api_calls": 1,
+    "embedding_tokens_input": 86822,
+    "embedding_cost_usd": 0.001736
+  },
+  "latency": {
+    "chunking_ms": 23.9,
+    "embedding_generation_ms": 17423.0,
+    "retrieval_ms": 160458.3,
+    "evaluation_ms": 4.1,
+    "total_ms": 213628.9
+  }
+}

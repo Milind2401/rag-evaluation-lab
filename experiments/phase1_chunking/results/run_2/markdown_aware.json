@@ -1,0 +1,41 @@
+{
+  "strategy": "markdown_aware",
+  "config": {
+    "max_chunk_size": 1024,
+    "evaluation": "semantic",
+    "threshold": 0.6
+  },
+  "chunk_count": 602,
+  "avg_chunk_tokens": 142.6,
+  "retrieval_metrics": {
+    "recall@1": 0.2,
+    "precision@1": 0.2,
+    "recall@3": 0.34,
+    "precision@3": 0.1133,
+    "recall@5": 0.36,
+    "precision@5": 0.072,
+    "mrr": 0.264,
+    "total_questions": 50,
+    "semantic_recall@1": 0.42,
+    "semantic_precision@1": 0.42,
+    "semantic_recall@3": 0.52,
+    "semantic_precision@3": 0.3067,
+    "semantic_recall@5": 0.58,
+    "semantic_precision@5": 0.284,
+    "semantic_mrr": 0.4753,
+    "avg_similarity": 0.5341,
+    "threshold": 0.6
+  },
+  "cost": {
+    "embedding_api_calls": 655,
+    "embedding_tokens_input": 276347,
+    "embedding_cost_usd": 0.005527
+  },
+  "latency": {
+    "chunking_ms": 11.9,
+    "embedding_generation_ms": 12981.5,
+    "retrieval_ms": 154758.7,
+    "evaluation_ms": 829377.3,
+    "total_ms": 1014889.1
+  }
+}

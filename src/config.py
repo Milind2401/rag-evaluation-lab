@@ -1,0 +1,27 @@
+import os
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
+
+PROJECT_ROOT = Path(__file__).parent.parent
+DATA_DIR = PROJECT_ROOT / "data"
+SOURCE_DOCS_DIR = DATA_DIR / "raw_pdf"
+GOLDEN_DATASET_PATH = DATA_DIR / "pg_2025_gold_evaluation_dataset.json"
+
+CHUNKING_STRATEGIES = ["fixed_size", "recursive", "semantic", "markdown_aware", "parent_child"]
+CHUNK_SIZES = [256, 512, 1024]
+CHUNK_OVERLAPS = [0, 50, 100]
+
+AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
+AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+AZURE_OPENAI_API_VERSION = os.getenv("AZURE_OPENAI_API_VERSION", "2024-02-01")
+AZURE_OPENAI_EMBEDDING_DEPLOYMENT = os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT", "text-embedding-3-small")
+AZURE_OPENAI_CHAT_DEPLOYMENT = os.getenv("AZURE_OPENAI_CHAT_DEPLOYMENT", "gpt-4o")
+
+AZURE_AI_SEARCH_ENDPOINT = os.getenv("AZURE_AI_SEARCH_ENDPOINT")
+AZURE_AI_SEARCH_API_KEY = os.getenv("AZURE_AI_SEARCH_API_KEY")
+AZURE_AI_SEARCH_INDEX_NAME = os.getenv("AZURE_AI_SEARCH_INDEX_NAME", "rag-evaluation-index")
+
+EMBEDDING_DIMENSION = 1536
+RETRIEVAL_TOP_K = 5
