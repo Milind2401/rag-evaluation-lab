@@ -16,15 +16,16 @@ def get_embedding_client() -> AzureOpenAI:
     )
 
 
-def get_embeddings(texts: list[str], batch_size: int = 100) -> list[list[float]]:
+def get_embeddings(texts: list[str], batch_size: int = 100, deployment: str = None) -> list[list[float]]:
     """Get embeddings for a list of texts using Azure OpenAI."""
     client = get_embedding_client()
+    model = deployment or AZURE_OPENAI_EMBEDDING_DEPLOYMENT
     all_embeddings = []
 
     for i in range(0, len(texts), batch_size):
         batch = texts[i:i + batch_size]
         response = client.embeddings.create(
-            model=AZURE_OPENAI_EMBEDDING_DEPLOYMENT,
+            model=model,
             input=batch,
         )
         batch_embeddings = [item.embedding for item in response.data]
@@ -33,11 +34,12 @@ def get_embeddings(texts: list[str], batch_size: int = 100) -> list[list[float]]
     return all_embeddings
 
 
-def get_query_embedding(text: str) -> list[float]:
+def get_query_embedding(text: str, deployment: str = None) -> list[float]:
     """Get embedding for a single query text."""
     client = get_embedding_client()
+    model = deployment or AZURE_OPENAI_EMBEDDING_DEPLOYMENT
     response = client.embeddings.create(
-        model=AZURE_OPENAI_EMBEDDING_DEPLOYMENT,
+        model=model,
         input=[text],
     )
     return response.data[0].embedding

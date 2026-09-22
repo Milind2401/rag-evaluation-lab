@@ -109,11 +109,13 @@ def index_chunks(chunks: list, embeddings: list[list[float]], strategy: str):
     print(f"  Indexed {len(documents)} documents")
 
 
-def vector_search(query: str, top_k: int = 5, strategy_filter: str = None) -> list[dict]:
+def vector_search(query: str, top_k: int = 5, strategy_filter: str = None,
+                  deployment_name: str = None) -> list[dict]:
     """Search using pure vector similarity."""
     search_client = get_search_client()
+    model = deployment_name or AZURE_OPENAI_EMBEDDING_DEPLOYMENT
     q_emb = get_embedding_client().embeddings.create(
-        model=AZURE_OPENAI_EMBEDDING_DEPLOYMENT, input=[query]
+        model=model, input=[query]
     ).data[0].embedding
 
     vector_query = VectorizedQuery(
@@ -149,11 +151,13 @@ def bm25_search(query: str, top_k: int = 5, strategy_filter: str = None) -> list
     return [{"id": r["id"], "text": r["text"], "score": r["@search.score"]} for r in results]
 
 
-def hybrid_search(query: str, top_k: int = 5, strategy_filter: str = None) -> list[dict]:
+def hybrid_search(query: str, top_k: int = 5, strategy_filter: str = None,
+                  deployment_name: str = None) -> list[dict]:
     """Search using combined vector + BM25."""
     search_client = get_search_client()
+    model = deployment_name or AZURE_OPENAI_EMBEDDING_DEPLOYMENT
     q_emb = get_embedding_client().embeddings.create(
-        model=AZURE_OPENAI_EMBEDDING_DEPLOYMENT, input=[query]
+        model=model, input=[query]
     ).data[0].embedding
 
     vector_query = VectorizedQuery(

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "q051",
+    "question": "In how many countries and territories are P&G products sold?",
+    "ground_truth_answer": "About 180 countries and territories",
+    "supporting_text": "Our products are sold in about 180 countries and territories throughout the world",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 2,
+      "section": "Item 1. Business"
+    },
+    "source_span": {
+      "page": 2,
+      "start_text": "Our products are sold",
+      "end_text": "throughout the world."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q052",
+    "question": "When was P&G founded and by whom?",
+    "ground_truth_answer": "Founded in Cincinnati in 1837 by William Procter and James Gamble; incorporated in Ohio in 1905.",
+    "supporting_text": "The Company was incorporated in Ohio in 1905, having first been established as a New Jersey corporation in 1890, and was built from a business founded in Cincinnati in 1837 by William Procter and James Gamble.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 2,
+      "section": "Item 1. Business"
+    },
+    "source_span": {
+      "page": 2,
+      "start_text": "The Company was incorporated in Ohio",
+      "end_text": "William Procter and James Gamble."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q053",
+    "question": "What percentage of P&G's total sales came from Walmart in fiscal 2025?",
+    "ground_truth_answer": "Approximately 16%",
+    "supporting_text": "Sales to Walmart Inc. and its affiliates represent approximately 16% of our total sales in 2025 and 2024 and 15% in 2023",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 2,
+      "section": "Key Customers"
+    },
+    "source_span": {
+      "page": 2,
+      "start_text": "Sales to Walmart Inc.",
+      "end_text": "15% in 2023."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q054",
+    "question": "What share of total net sales did P&G's top ten customers account for in 2025, and how has it trended over recent years?",
+    "ground_truth_answer": "43% in 2025, up from 42% in 2024 and 40% in 2023.",
+    "supporting_text": "Our top ten customers accounted for 43% of our total net sales in 2025, 42% in 2024 and 40% in 2023.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 2,
+      "section": "Key Customers"
+    },
+    "source_span": {
+      "page": 2,
+      "start_text": "Our top ten customers",
+      "end_text": "40% in 2023."
+    },
+    "question_type": "trend_analysis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q055",
+    "question": "How many employees did P&G have as of June 30, 2025?",
+    "ground_truth_answer": "Approximately 109,000, an increase of 2% versus the prior year.",
+    "supporting_text": "As of June 30, 2025, the Company had approximately 109,000 employees, an increase of 2% versus the prior year due to business growth.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 3,
+      "section": "Human Capital / Employees"
+    },
+    "source_span": {
+      "page": 3,
+      "start_text": "As of June 30, 2025",
+      "end_text": "due to business growth."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q056",
+    "question": "What proportion of P&G employees work in manufacturing roles, and what proportion are located in the United States?",
+    "ground_truth_answer": "49% work in manufacturing roles and 28% are located in the United States.",
+    "supporting_text": "49% of our employees are in manufacturing roles and 28% of our employees are located in the United States.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 3,
+      "section": "Human Capital / Employees"
+    },
+    "source_span": {
+      "page": 3,
+      "start_text": "49% of our employees",
+      "end_text": "United States."
+    },
+    "question_type": "structured_data",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q057",
+    "question": "In approximately how many countries does P&G operate?",
+    "ground_truth_answer": "Approximately 70 countries",
+    "supporting_text": "As a global consumer products company, P&G serves consumers around the world with operations in approximately 70 countries.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 3,
+      "section": "Equality and Inclusion"
+    },
+    "source_span": {
+      "page": 3,
+      "start_text": "As a global consumer products company",
+      "end_text": "approximately 70 countries."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q058",
+    "question": "What is P&G's net zero ambition and when was it announced?",
+    "ground_truth_answer": "A 2040 net zero ambition, announced in 2021.",
+    "supporting_text": "In 2021, the Company announced a 2040 net zero ambition.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 3,
+      "section": "Sustainability"
+    },
+    "source_span": {
+      "page": 3,
+      "start_text": "In 2021",
+      "end_text": "net zero ambition."
+    },
+    "question_type": "fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q059",
+    "question": "Which five U.S. regulatory agencies are explicitly named as overseeing P&G's products and manufacturing operations?",
+    "ground_truth_answer": "FDA, EPA, OSHA, FTC and the Consumer Product Safety Commission (CPSC).",
+    "supporting_text": "Food and Drug Administration (FDA), the Environmental Protection Agency (EPA), the Occupational Safety and Health Administration (OSHA), the Federal Trade Commission (FTC) and the Consumer Product Safety Commission (CPSC).",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 3,
+      "section": "Government Regulation"
+    },
+    "source_span": {
+      "page": 3,
+      "start_text": "including the U.S. Food and Drug Administration",
+      "end_text": "Safety Commission (CPSC)."
+    },
+    "question_type": "list",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q060",
+    "question": "What share of P&G's annual net sales is generated by operations outside the U.S.?",
+    "ground_truth_answer": "More than 50%",
+    "supporting_text": "our operations outside the U.S. generate more than 50% of our annual net sales.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 4,
+      "section": "Item 1A. Risk Factors"
+    },
+    "source_span": {
+      "page": 4,
+      "start_text": "our operations outside the U.S.",
+      "end_text": "annual net sales."
+    },
+    "question_type": "fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q061",
+    "question": "What percentage of P&G's 2025 net sales came from the Fabric & Home Care segment?",
+    "ground_truth_answer": "36%",
+    "supporting_text": "|Fabric & Home Care|36%|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": null,
+      "section": "2025 Net Sales by Business Segment"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "|Fabric & Home Care|",
+      "end_text": "36%|"
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q062",
+    "question": "What percentage of P&G's 2025 net sales came from North America?",
+    "ground_truth_answer": "52%",
+    "supporting_text": "|North America4|52%|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": null,
+      "section": "2025 Net Sales by Geographic Region"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "|North America4|",
+      "end_text": "52%|"
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q063",
+    "question": "How did P&G's net sales trend from fiscal 2021 through fiscal 2025?",
+    "ground_truth_answer": "Net sales grew from $76.1 billion in fiscal 2021 to $84.3 billion in fiscal 2025 ($80.2B in 2022, $82.0B in 2023, $84.0B in 2024).",
+    "supporting_text": "|Net Sales|**$84.3**|$84.0|$82.0|$80.2|$76.1|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": null,
+      "section": "Financial Highlights (Unaudited)"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "|Net Sales|",
+      "end_text": "$76.1|"
+    },
+    "question_type": "trend_analysis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q064",
+    "question": "What were dividends per common share in fiscal 2025?",
+    "ground_truth_answer": "$4.08",
+    "supporting_text": "|Operating Cash Flow<br>Dividends per<br>Common Share|**$17.8**<br>**$4.08**|$19.8<br>$3.83|$16.8<br>$3.68|$16.7<br>$3.52|$18.4<br>$3.24|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": null,
+      "section": "Financial Highlights (Unaudited)"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "|Operating Cash Flow",
+      "end_text": "$18.4<br>$3.24|"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q065",
+    "question": "Which geographies are included in 'North America' in P&G's net sales breakdown?",
+    "ground_truth_answer": "The United States, Canada and Puerto Rico.",
+    "supporting_text": "- (4) North America includes the United States, Canada and Puerto Rico.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": null,
+      "section": "Financial Highlights footnotes"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "- (4) North America includes",
+      "end_text": "Puerto Rico."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q066",
+    "question": "How does P&G define Core EPS?",
+    "ground_truth_answer": "A measure of diluted EPS excluding items that are not judged by management to be part of the Company's sustainable results or trends.",
+    "supporting_text": "Core EPS is a measure of the Company's diluted EPS excluding items that are not judged by management to be part of the Company's sustainable results or trends.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 30,
+      "section": "Measures Not Defined By U.S. GAAP"
+    },
+    "source_span": {
+      "page": 30,
+      "start_text": "Core EPS is a measure",
+      "end_text": "sustainable results or trends."
+    },
+    "question_type": "definition_and_fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q067",
+    "question": "For how many consecutive years has P&G increased its dividend, and how long has it paid one?",
+    "ground_truth_answer": "Increased for 69 consecutive years since 1956; paid a dividend for 135 consecutive years since 1890.",
+    "supporting_text": "P&G has been paying a dividend for 135 consecutive years since its incorporation in 1890 and has increased its dividend for 69 consecutive years since 1956.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 13,
+      "section": "Market and Dividend Information"
+    },
+    "source_span": {
+      "page": 13,
+      "start_text": "P&G has been paying a dividend",
+      "end_text": "since 1956."
+    },
+    "question_type": "fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q068",
+    "question": "At what annual compound average rate has P&G's dividend grown over the past ten years?",
+    "ground_truth_answer": "5%",
+    "supporting_text": "Over the past ten years, the dividend has increased at an annual compound average rate of 5%.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 13,
+      "section": "Market and Dividend Information"
+    },
+    "source_span": {
+      "page": 13,
+      "start_text": "Over the past ten years",
+      "end_text": "average rate of 5%."
+    },
+    "question_type": "fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q069",
+    "question": "On which exchange does P&G trade and under what stock symbol?",
+    "ground_truth_answer": "New York Stock Exchange, under the symbol PG.",
+    "supporting_text": "P&G trades on the New York Stock Exchange under the stock symbol PG.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 13,
+      "section": "Common Stock Information"
+    },
+    "source_span": {
+      "page": 13,
+      "start_text": "P&G trades on the New York Stock Exchange",
+      "end_text": "symbol PG."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q070",
+    "question": "What was the cumulative value of a $100 investment in P&G stock made on June 30, 2020, by June 30, 2025?",
+    "ground_truth_answer": "$151",
+    "supporting_text": "|P&G<br>$ 100<br>|$ 116<br>$ 126<br>|$ 137<br>$ 152<br>|**$**<br>**151**|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 14,
+      "section": "Shareholder Return"
+    },
+    "source_span": {
+      "page": 14,
+      "start_text": "|P&G<br>$ 100<br>|",
+      "end_text": "**151**|"
+    },
+    "question_type": "trend_analysis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q071",
+    "question": "Which benchmark indexes is P&G's five-year stock return compared against in the shareholder return graph?",
+    "ground_truth_answer": "The S&P 500 Stock Index (broad market comparison) and the S&P 500 Consumer Staples Index (line of business comparison).",
+    "supporting_text": "The following graph compares the cumulative total return of P&G’s common stock for the five-year period ended June 30, 2025, against the cumulative total return of the S&P 500 Stock Index (broad market comparison) and the S&P 500 Consumer Staples Index (line of business comparison).",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 14,
+      "section": "Shareholder Return"
+    },
+    "source_span": {
+      "page": 14,
+      "start_text": "The following graph compares",
+      "end_text": "line of business comparison)."
+    },
+    "question_type": "list",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q072",
+    "question": "What distribution channels does P&G use to deliver its products?",
+    "ground_truth_answer": "Retail stores, e-commerce platforms and direct-to-consumer platforms.",
+    "supporting_text": "The Company utilizes various distribution channels, including retail stores, e-commerce platforms and direct-to-consumer platforms to deliver our products",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 2,
+      "section": "Narrative Description of Business"
+    },
+    "source_span": {
+      "page": 2,
+      "start_text": "The Company utilizes various distribution channels",
+      "end_text": "deliver our products."
+    },
+    "question_type": "list",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q073",
+    "question": "Besides other branded products, what does P&G compete against in many markets?",
+    "ground_truth_answer": "Retailers' private-label brands.",
+    "supporting_text": "In many of the markets and industry segments, we compete against other branded products as well as retailers' private-label brands.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 2,
+      "section": "Competitive Condition"
+    },
+    "source_span": {
+      "page": 2,
+      "start_text": "In many of the markets",
+      "end_text": "private-label brands."
+    },
+    "question_type": "fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q074",
+    "question": "How could economic or social disruptions affect P&G's business?",
+    "ground_truth_answer": "They could reduce demand for its products.",
+    "supporting_text": "Our business could be negatively impacted by reduced demand for our products related to one or more significant local, regional or global economic or social disruptions",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 4,
+      "section": "Item 1A. Risk Factors"
+    },
+    "source_span": {
+      "page": 4,
+      "start_text": "Our business could be negatively impacted",
+      "end_text": "economic or social disruptions."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q075",
+    "question": "Why is P&G exposed to movements in global interest rates?",
+    "ground_truth_answer": "It holds significant debt including floating rate and foreign currency debt and derivatives; refinancing debt or renewing derivatives exposes it to interest rate movements.",
+    "supporting_text": "Further, we have a significant amount of debt including floating rate and foreign currency debt and derivatives as part of our capital markets activities. As we refinance debt or renew derivatives, we are exposed to movement in global interest rates and rate differentials",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 4,
+      "section": "Item 1A. Risk Factors"
+    },
+    "source_span": {
+      "page": 4,
+      "start_text": "Further, we have a significant amount of debt",
+      "end_text": "rates and rate differentials."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q076",
+    "question": "When did P&G complete its limited market portfolio restructuring and what charge did it record?",
+    "ground_truth_answer": "Completed in the period ended September 30, 2024, with the substantial liquidation of operations in Argentina and $801 million after tax of incremental restructuring charges.",
+    "supporting_text": "During the period ended September 30, 2024, the Company completed this limited market portfolio restructuring with the substantial liquidation of its operations in Argentina and recorded incremental restructuring charges of $801 million after tax,",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 18,
+      "section": "Recent Developments"
+    },
+    "source_span": {
+      "page": 18,
+      "start_text": "During the period ended September 30, 2024",
+      "end_text": "$801 million after tax,"
+    },
+    "question_type": "fact",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q077",
+    "question": "What were the total incremental restructuring charges under the limited market portfolio restructuring program?",
+    "ground_truth_answer": "$1.2 billion after tax",
+    "supporting_text": "The total incremental restructuring charges incurred under the program beginning in the three-month period ended December 31, 2023, through the three-month period ended September 30, 2024, were $1.2 billion after tax.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 18,
+      "section": "Recent Developments"
+    },
+    "source_span": {
+      "page": 18,
+      "start_text": "The total incremental restructuring charges",
+      "end_text": "$1.2 billion after tax."
+    },
+    "question_type": "fact",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q078",
+    "question": "What caused the $1.3 billion Gillette intangible asset impairment in fiscal 2024?",
+    "ground_truth_answer": "A higher discount rate, weakening of several currencies relative to the U.S. dollar, and the impact of the non-core restructuring program.",
+    "supporting_text": "The impairment charge arose from a reduction in the estimated fair value of the Gillette indefinite-lived intangible asset due to a higher discount rate, weakening of several currencies relative to the U.S",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 18,
+      "section": "Recent Developments"
+    },
+    "source_span": {
+      "page": 18,
+      "start_text": "The impairment charge arose",
+      "end_text": "described above."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q079",
+    "question": "How much in restructuring costs does P&G expect to incur under its June 2025 portfolio and productivity plan?",
+    "ground_truth_answer": "Approximately $1.5 to $2.0 billion in before-tax restructuring costs over a two-year period.",
+    "supporting_text": "The Company expects to incur approximately $1.5 to $2.0 billion in before-tax restructuring costs over a two-year period, including costs incurred as part of this plan and the ongoing plan.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 18,
+      "section": "Recent Developments"
+    },
+    "source_span": {
+      "page": 18,
+      "start_text": "The Company expects to incur approximately",
+      "end_text": "the ongoing plan."
+    },
+    "question_type": "fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q080",
+    "question": "What reduction in nonmanufacturing roles does P&G expect across portfolio, supply chain and organization changes, and how large is it relative to the workforce?",
+    "ground_truth_answer": "Up to 7,000 nonmanufacturing roles, approximately 15% of the current non-manufacturing workforce, over the next two years.",
+    "supporting_text": "Across these three areas — portfolio, supply chain, organization — we expect to reduce up to 7,000 nonmanufacturing roles, or approximately 15% of our current non-manufacturing workforce, over the next two years.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": null,
+      "section": "Accelerating Growth and Value Creation"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "Across these three areas",
+      "end_text": "next two years."
+    },
+    "question_type": "fact",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q081",
+    "question": "What are the three main areas of focus for P&G's efforts to accelerate growth and value creation?",
+    "ground_truth_answer": "Portfolio, supply chain and organization design.",
+    "supporting_text": "There are three main areas of focus: portfolio, supply chain and organization design.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": null,
+      "section": "Accelerating Growth and Value Creation"
+    },
+    "source_span": {
+      "page": null,
+      "start_text": "There are three main areas of focus",
+      "end_text": "organization design."
+    },
+    "question_type": "list",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q082",
+    "question": "What does P&G expect from the non-renewal of the Glad joint venture agreement with Clorox?",
+    "ground_truth_answer": "Approximately $500 million in cash proceeds and an after-tax gain of $250 to $300 million in Q3 of fiscal 2026.",
+    "supporting_text": "Subject to market conditions and the parties' negotiations with respect to fair market value, the Company expects to receive cash proceeds of approximately $500 million and record an after-tax gain in the range of $250 to $300 million in the third quarter of the fiscal year ended June 30, 2026.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 18,
+      "section": "Recent Developments"
+    },
+    "source_span": {
+      "page": 18,
+      "start_text": "Subject to market conditions",
+      "end_text": "June 30, 2026."
+    },
+    "question_type": "fact",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q083",
+    "question": "What drove the change in P&G's net sales in fiscal 2025?",
+    "ground_truth_answer": "An increase driven by pricing of 1% was mostly offset by unfavorable foreign exchange of 1%.",
+    "supporting_text": "Net sales increased $245 million to $84.3 billion in fiscal 2025 as an increase in net sales driven by pricing of 1% was mostly offset by unfavorable foreign exchange of 1%.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 20,
+      "section": "Results of Operations / Net Sales"
+    },
+    "source_span": {
+      "page": 20,
+      "start_text": "Net sales increased $245 million to $84.3 billion in fiscal 2025",
+      "end_text": "foreign exchange of 1%."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q084",
+    "question": "What was P&G's gross margin in fiscal 2025 and how did it change versus the prior year?",
+    "ground_truth_answer": "51.2%, down 20 basis points from 51.4%.",
+    "supporting_text": "|Gross margin|**51.2 %**|51.4 %|(20) bps|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 20,
+      "section": "Results of Operations / Operating Costs"
+    },
+    "source_span": {
+      "page": 20,
+      "start_text": "|Gross margin|",
+      "end_text": "(20) bps|"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q085",
+    "question": "Which factor reduced P&G's gross margin by 110 basis points in fiscal 2025?",
+    "ground_truth_answer": "Unfavorable product mix.",
+    "supporting_text": "- 110 basis points of decline from unfavorable product mix,",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 21,
+      "section": "Results of Operations / Operating Costs"
+    },
+    "source_span": {
+      "page": 21,
+      "start_text": "- 110 basis points",
+      "end_text": "product mix,"
+    },
+    "question_type": "fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q086",
+    "question": "Why did total SG&A decrease in fiscal 2025?",
+    "ground_truth_answer": "Due to decreased marketing spending and higher foreign exchange transactional charges in the prior year period.",
+    "supporting_text": "Total SG&A decreased 3% to $22.7 billion and SG&A as a percentage of net sales decreased 80 basis points to 26.9% due to decreased marketing spending and higher foreign exchange transactional charges in the prior year period.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 21,
+      "section": "Results of Operations / Operating Costs"
+    },
+    "source_span": {
+      "page": 21,
+      "start_text": "Total SG&A decreased 3%",
+      "end_text": "prior year period."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q087",
+    "question": "What was P&G's operating margin in fiscal 2025 and how did it change?",
+    "ground_truth_answer": "24.3%, up 220 basis points from 22.1%.",
+    "supporting_text": "|Operating margin|**24.3 %**|22.1 %|220 bps|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 20,
+      "section": "Results of Operations / Operating Costs"
+    },
+    "source_span": {
+      "page": 20,
+      "start_text": "|Operating margin|",
+      "end_text": "220 bps|"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q088",
+    "question": "What was P&G's interest expense in fiscal 2025?",
+    "ground_truth_answer": "$907 million, a decrease of $18 million versus the prior year.",
+    "supporting_text": "- Interest expense was $907 million, a decrease of $18 million versus the prior year.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 21,
+      "section": "Non-Operating Items"
+    },
+    "source_span": {
+      "page": 21,
+      "start_text": "- Interest expense was",
+      "end_text": "prior year."
+    },
+    "question_type": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q089",
+    "question": "What was P&G's effective income tax rate in fiscal 2025 compared to fiscal 2024?",
+    "ground_truth_answer": "20.3% in fiscal 2025 versus 20.2% in fiscal 2024.",
+    "supporting_text": "The effective income tax rate for fiscal year ended June 30, 2025, was 20.3%, compared to 20.2% for the fiscal year ended June 30, 2024.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 21,
+      "section": "Income Taxes"
+    },
+    "source_span": {
+      "page": 21,
+      "start_text": "The effective income tax rate",
+      "end_text": "June 30, 2024."
+    },
+    "question_type": "fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q090",
+    "question": "What primarily drove the increase in P&G's effective tax rate in fiscal 2025?",
+    "ground_truth_answer": "The charge for accumulated foreign currency translation losses due to the substantial liquidation of operations in Argentina, partially offset by favorable geographic mix impacts.",
+    "supporting_text": "The increase in the effective tax rate was primarily driven by the charge for accumulated foreign currency translation losses due to the substantial liquidation of operations in Argentina, partially offset by favorable geographic mix impacts.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 21,
+      "section": "Income Taxes"
+    },
+    "source_span": {
+      "page": 21,
+      "start_text": "The increase in the effective tax rate",
+      "end_text": "geographic mix impacts."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q091",
+    "question": "How did foreign exchange impacts affect P&G's net earnings in fiscal 2025?",
+    "ground_truth_answer": "They reduced net earnings by approximately $45 million.",
+    "supporting_text": "Foreign exchange impacts reduced net earnings by approximately $45 million due to a weakening of certain currencies against the U.S. dollar.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 21,
+      "section": "Net Earnings"
+    },
+    "source_span": {
+      "page": 21,
+      "start_text": "Foreign exchange impacts reduced",
+      "end_text": "U.S. dollar."
+    },
+    "question_type": "fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q092",
+    "question": "What was Health Care's net sales growth in fiscal 2025 and what were its main drivers?",
+    "ground_truth_answer": "2% net sales growth, driven by favorable mix of 3% and price of 1%, partly offset by volume (-1%) and foreign exchange (-1%).",
+    "supporting_text": "|Health Care|(1) %|(1) %|(1) %|1 %|3 %|— %|2 %|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 21,
+      "section": "Segment Results / Net Sales Change Drivers"
+    },
+    "source_span": {
+      "page": 21,
+      "start_text": "|Health Care|(1) %|",
+      "end_text": "|2 %|"
+    },
+    "question_type": "structured_data",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q093",
+    "question": "How much cash did P&G use in investing activities in fiscal 2025?",
+    "ground_truth_answer": "$3,818 million ($3.8 billion), versus $3,504 million in 2024.",
+    "supporting_text": "|Net cash used in investing activities||**(3,818)**||(3,504)|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 25,
+      "section": "Cash Flow Analysis"
+    },
+    "source_span": {
+      "page": 25,
+      "start_text": "|Net cash used in investing activities|",
+      "end_text": "(3,504)|"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q094",
+    "question": "What drove P&G's net financing cash outflows in fiscal 2025?",
+    "ground_truth_answer": "Mainly dividends to shareholders and treasury stock purchases, partially offset by stock options impact and a net debt increase.",
+    "supporting_text": "Net financing activities used $14.0 billion of cash in 2025, mainly due to dividends to shareholders and treasury stock purchases, partially offset by the impact of stock options and other and a net debt increase.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 25,
+      "section": "Financing Cash Flow"
+    },
+    "source_span": {
+      "page": 25,
+      "start_text": "Net financing activities used $14.0 billion",
+      "end_text": "net debt increase."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q095",
+    "question": "How much did P&G pay in dividends to shareholders in fiscal 2025?",
+    "ground_truth_answer": "$9,872 million, up from $9,312 million in 2024.",
+    "supporting_text": "|Dividends to shareholders|**(9,872)**|(9,312)|(8,999)|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 40,
+      "section": "Consolidated Statements of Cash Flows"
+    },
+    "source_span": {
+      "page": 40,
+      "start_text": "|Dividends to shareholders|",
+      "end_text": "(8,999)|"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q096",
+    "question": "Why did total inventories consume cash in fiscal 2025?",
+    "ground_truth_answer": "Driven primarily by increased safety stock levels and higher commodity costs ($324 million of cash consumed).",
+    "supporting_text": "Total inventories increased, consuming $324 million of cash, driven primarily by increased safety stock levels and higher commodity costs.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 25,
+      "section": "Operating Cash Flow"
+    },
+    "source_span": {
+      "page": 25,
+      "start_text": "Total inventories increased",
+      "end_text": "commodity costs."
+    },
+    "question_type": "cause_effect",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q097",
+    "question": "What are P&G's short-term and long-term credit ratings as of June 30, 2025?",
+    "ground_truth_answer": "Short-term: P-1 (Moody's) and A-1+ (S&P); long-term: Aa3 (Moody's) and AA- (S&P), all with stable outlook.",
+    "supporting_text": "On June 30, 2025, our short-term credit ratings were P-1 (Moody's) and A-1+ (Standard & Poor's), while our long-term credit ratings were Aa3 (Moody's) and AA- (Standard & Poor's), all with a stable outlook.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 26,
+      "section": "Liquidity"
+    },
+    "source_span": {
+      "page": 26,
+      "start_text": "On June 30, 2025, our short-term credit ratings",
+      "end_text": "stable outlook."
+    },
+    "question_type": "fact",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q098",
+    "question": "How much cash and cash equivalents did P&G hold as of June 30, 2025?",
+    "ground_truth_answer": "$9,556 million, up from $9,482 million in 2024.",
+    "supporting_text": "|Cash and cash equivalents|**$**<br>**9,556**|$ 9,482|",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 38,
+      "section": "Consolidated Balance Sheets"
+    },
+    "source_span": {
+      "page": 38,
+      "start_text": "|Cash and cash equivalents|",
+      "end_text": "$ 9,482|"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q099",
+    "question": "What was Health Care's organic sales growth in fiscal 2025 per the non-GAAP reconciliation?",
+    "ground_truth_answer": "3% (2% net sales growth, plus 1% foreign exchange impact and no acquisition/divestiture impact).",
+    "supporting_text": "|Health Care|2 %<br>1 %<br>— %<br>3 %||",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 30,
+      "section": "Measures Not Defined By U.S. GAAP"
+    },
+    "source_span": {
+      "page": 30,
+      "start_text": "|Health Care|2 %<br>",
+      "end_text": "3 %||"
+    },
+    "question_type": "table_lookup",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q100",
+    "question": "What were P&G's total restructuring charges in fiscal 2025 versus fiscal 2024?",
+    "ground_truth_answer": "$1.1 billion in fiscal 2025 versus $659 million in fiscal 2024.",
+    "supporting_text": "The Company incurred total restructuring charges of $1.1 billion and $659 for the fiscal years ended June 30, 2025 and 2024.",
+    "source": {
+      "document": "P&G_AnnualReport.md",
+      "page": 46,
+      "section": "Note 3 / Restructuring Program"
+    },
+    "source_span": {
+      "page": 46,
+      "start_text": "The Company incurred total restructuring charges",
+      "end_text": "2025 and 2024."
+    },
+    "question_type": "fact",
+    "difficulty": "medium"
+  }
+]

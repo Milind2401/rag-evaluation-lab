@@ -7,3 +7,7 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 
+docs/PHASE_1_CHUNKING.md
+
+# Office temp/lock files
+~$*

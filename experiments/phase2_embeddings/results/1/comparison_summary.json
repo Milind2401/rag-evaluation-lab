@@ -1,0 +1,75 @@
+{
+  "models_tested": 3,
+  "best_overall": "text-embedding-3-small",
+  "best_recall@5": {
+    "model": "text-embedding-3-large",
+    "value": 0.42
+  },
+  "best_cost_efficiency": {
+    "model": "text-embedding-3-small"
+  },
+  "ranking": [
+    {
+      "model": "text-embedding-3-small",
+      "recall@5": 0.34,
+      "mrr": 0.21988888888888888,
+      "ndcg@5": 0.24667062498624015,
+      "cost_per_million": 0.02,
+      "cosine_separation": 0.019944031993653466,
+      "cost_efficiency": 0.8461538461538461,
+      "composite_score": 0.29391333663390296,
+      "rank": 1
+    },
+    {
+      "model": "text-embedding-3-large",
+      "recall@5": 0.42,
+      "mrr": 0.3291666666666667,
+      "ndcg@5": 0.34492850493158805,
+      "cost_per_million": 0.13,
+      "cosine_separation": 0.02477165948529403,
+      "cost_efficiency": 0.0,
+      "composite_score": 0.28099311657577836,
+      "rank": 2
+    },
+    {
+      "model": "text-embedding-ada-002",
+      "recall@5": 0.42,
+      "mrr": 0.2655238095238095,
+      "ndcg@5": 0.2988040097930508,
+      "cost_per_million": 0.1,
+      "cosine_separation": 0.00979010631027255,
+      "cost_efficiency": 0.23076923076923073,
+      "composite_score": 0.2766871933630265,
+      "rank": 3
+    }
+  ],
+  "statistical_significance": {
+    "text-embedding-3-large_vs_text-embedding-3-small": {
+      "t_stat": 2.0641873861685602,
+      "p_value": 0.04431517715347376,
+      "significant": "True"
+    },
+    "text-embedding-ada-002_vs_text-embedding-3-small": {
+      "t_stat": 2.0641873861685602,
+      "p_value": 0.04431517715347376,
+      "significant": "True"
+    }
+  },
+  "cost_quality_analysis": {
+    "text-embedding-3-small": {
+      "cost_per_1k_queries": 0.003,
+      "recall@5": 0.34,
+      "quality_per_dollar": 113.33
+    },
+    "text-embedding-3-large": {
+      "cost_per_1k_queries": 0.0195,
+      "recall@5": 0.42,
+      "quality_per_dollar": 21.54
+    },
+    "text-embedding-ada-002": {
+      "cost_per_1k_queries": 0.015,
+      "recall@5": 0.42,
+      "quality_per_dollar": 28.0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "models_tested": 3,
+  "best_overall": "text-embedding-3-large",
+  "best_recall@5": {
+    "model": "text-embedding-3-large",
+    "value": 0.68
+  },
+  "best_cost_efficiency": {
+    "model": "text-embedding-3-small"
+  },
+  "ranking": [
+    {
+      "model": "text-embedding-3-large",
+      "recall@5": 0.68,
+      "mrr": 0.5131666666666667,
+      "ndcg@5": 0.5397382807935794,
+      "cost_per_million": 0.13,
+      "cosine_separation": 0.0321782646956521,
+      "cost_efficiency": 0.0,
+      "composite_score": 0.44506606252973036,
+      "rank": 1
+    },
+    {
+      "model": "text-embedding-3-small",
+      "recall@5": 0.56,
+      "mrr": 0.3802777777777777,
+      "ndcg@5": 0.4182584024352572,
+      "cost_per_million": 0.02,
+      "cosine_separation": 0.02726063212445662,
+      "cost_efficiency": 0.8461538461538461,
+      "composite_score": 0.435425604365549,
+      "rank": 2
+    },
+    {
+      "model": "text-embedding-ada-002",
+      "recall@5": 0.56,
+      "mrr": 0.3893015873015873,
+      "ndcg@5": 0.41880400979305077,
+      "cost_per_million": 0.1,
+      "cosine_separation": 0.010724731283525024,
+      "cost_efficiency": 0.23076923076923073,
+      "composite_score": 0.37377183155345883,
+      "rank": 3
+    }
+  ],
+  "statistical_significance": {
+    "text-embedding-3-large_vs_text-embedding-3-small": {
+      "t_stat": 1.7685190342396897,
+      "p_value": 0.08319896692938426,
+      "significant": "False"
+    },
+    "text-embedding-ada-002_vs_text-embedding-3-small": {
+      "t_stat": 0.0,
+      "p_value": 1.0,
+      "significant": "False"
+    }
+  },
+  "cost_quality_analysis": {
+    "text-embedding-3-small": {
+      "cost_per_1k_queries": 0.003,
+      "recall@5": 0.56,
+      "quality_per_dollar": 186.67
+    },
+    "text-embedding-3-large": {
+      "cost_per_1k_queries": 0.0195,
+      "recall@5": 0.68,
+      "quality_per_dollar": 34.87
+    },
+    "text-embedding-ada-002": {
+      "cost_per_1k_queries": 0.015,
+      "recall@5": 0.56,
+      "quality_per_dollar": 37.33
+    }
+  }
+}

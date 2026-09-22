@@ -1,3 +1,4 @@
+import math
 import time
 import json
 import numpy as np
@@ -10,6 +11,7 @@ class LatencyTracker:
     """Track timing for each phase."""
     chunking_ms: float = 0.0
     embedding_generation_ms: float = 0.0
+    indexing_ms: float = 0.0
     retrieval_ms: float = 0.0
     evaluation_ms: float = 0.0
     total_ms: float = 0.0
@@ -18,10 +20,16 @@ class LatencyTracker:
         return {
             "chunking_ms": round(self.chunking_ms, 1),
             "embedding_generation_ms": round(self.embedding_generation_ms, 1),
+            "indexing_ms": round(self.indexing_ms, 1),
             "retrieval_ms": round(self.retrieval_ms, 1),
             "evaluation_ms": round(self.evaluation_ms, 1),
             "total_ms": round(self.total_ms, 1),
         }
+
+
+# Mirrors the default batching in get_embeddings() (src/embeddings/azure_openai.py):
+# one HTTP call per up-to-100 texts.
+EMBEDDING_API_BATCH_SIZE = 100
 
 
 @dataclass
@@ -30,12 +38,29 @@ class CostTracker:
     embedding_api_calls: int = 0
     embedding_tokens_input: int = 0
     embedding_cost_usd: float = 0.0
+    cost_per_million: float = 0.02
 
-    def add_embedding_batch(self, token_count: int, batch_size: int):
-        self.embedding_api_calls += 1
+    def add_embedding_batch(
+        self,
+        token_count: int,
+        batch_size: int,
+        api_calls: int = None,
+    ):
+        """
+        Record an embedding usage event.
+
+        batch_size: number of texts embedded in this event.
+        api_calls: number of HTTP calls actually made. Defaults to
+            ceil(batch_size / EMBEDDING_API_BATCH_SIZE), which matches
+            get_embeddings()' batching (one call per up-to-100 texts).
+            Pass an explicit value when the caller embeds differently,
+            e.g. one API call per query -> api_calls=batch_size.
+        """
+        if api_calls is None:
+            api_calls = math.ceil(batch_size / EMBEDDING_API_BATCH_SIZE) if batch_size > 0 else 0
+        self.embedding_api_calls += api_calls
         self.embedding_tokens_input += token_count
-        # text-embedding-3-small: $0.02 per 1M tokens
-        self.embedding_cost_usd += (token_count / 1_000_000) * 0.02
+        self.embedding_cost_usd += (token_count / 1_000_000) * self.cost_per_million
 
     def summary(self) -> dict:
         return {
